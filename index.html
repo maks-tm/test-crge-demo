@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="аренда авто Грузия, прокат автомобилей Грузия, аренда машины Тбилиси, аренда автомобилей Батуми, аренда авто в аэропорту Грузии, автопрокат Грузия, арендовать машину в Грузии, прокат машин в Грузии без водителя">
+    <meta name="description"
+        content="Аренда авто в Грузии по выгодным ценам. Широкий выбор автомобилей, удобное бронирование онлайн. Прокат машин в Тбилиси, Батуми и других городах с доставкой в аэропорты. Без залога, без скрытых платежей. Забронируйте авто для комфортного путешествия по Грузии!">
+    <meta name="author" content="#">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Аренда авто в Грузии">
+    <meta property="og:description"
+        content="Прокат машин по доступным ценам в Тбилиси и Батуми. Забронируйте авто онлайн!">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="#">
+    <link rel="canonical" href="#">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="sidebars.css">
+    <link rel="stylesheet" href="style.css">
+    <title>The Demo page</title>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- Header -->
+    <header class="header" id="header" role="banner" aria-label="Site Header">
+        <a href="index.html" class="logo" id="header-logo" aria-label="Go to Main page" accesskey="G">
+            <img loading="lazy" src="company-logo.png" alt="Company Logo">
+        </a>
+        <nav aria-label="Main Navigation">
+            <ul class="banner-navbar" id="mainMenu" aria-label="Navigation" role="navigation">
+                <span class="weui--home-filled"></span>
+                <li class="home-icon" tabindex="0">
+                    <a href="index.html" class="nav-item active" id="home" aria-label="Go to Home" accesskey="H">
+                        Главная
+                    </a>
+                </li>
+                <!-- About Company Dropdown Menu -->
+                <li class="dropdown" id="about-company" role="menu">
+                    <button class="dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        aria-haspopup="true" aria-controls="companyDropdownMenu" aria-label="Open Company Menu"
+                        tabindex="0">
+                        О Компании
+                    </button>
+                    <ul class="dropdown-menu" id="companyDropdownMenu" role="menu" aria-label="Company options">
+                        <li role="menuitem"><a class="dropdown-item" href="#">About Company</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Our Services</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Our Locations</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="nav-item content vehicles" id="content-1" aria-label="View Vehicles" accesskey="V">
+                        Автомобили
+                    </a>
+                </li>
+                <!-- Other Pages Dropdown Menu -->
+                <li class="dropdown" id="pages" role="menu">
+                    <button class="dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        aria-haspopup="true" aria-controls="pagesDropdownMenu" aria-label="Open Pages Menu" tabindex="0">
+                        Ссылки
+                    </button>
+                    <ul class="dropdown-menu" id="pagesDropdownMenu" role="menu" aria-label="Page options">
+                        <li role="menuitem"><a class="dropdown-item" href="#">Pricing</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Blogs</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Terms & Conditions</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="nav-item content contact" id="content-2" aria-label="Contact Us" accesskey="C">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Mobile menu box -->
+        <div class="menubtns-box" id="mobileMenu" role="group" aria-label="User Actions">
+            <!-- Shopping cart -->
+            <div class="wrap-icon-header">
+                <a href="#" class="icon-header-item icon-header-noti js-show-cart px-2" id="shopping-cart" data-notify="0"
+                    aria-label="Open cart" accesskey="B">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" viewBox="0 0 512 512">
+                        <title id="cartTitle">Shopping Cart</title>
+                        <rect width="512" height="512" fill="none" />
+                        <path fill="#060606"
+                            d="m25.45 63.043l-4.364 17.463l8.73 2.18l60.624 15.16l29.402 44.1l62.44 187.32l-36.845 73.693h17.827a31.6 31.6 0 0 0-3.264 14c0 17.567 14.433 32 32 32s32-14.433 32-32c0-5.01-1.178-9.762-3.264-14h102.528a31.6 31.6 0 0 0-3.264 14c0 17.567 14.433 32 32 32s32-14.433 32-32c0-5.01-1.178-9.762-3.264-14H393v-18H174.562l23-46h192.924l70-210h-327.67L101.56 82.07L34.183 65.227zm115.038 83.914H231v46h-75.178zm108.512 0h78v46h-78zm96 0h90.512l-15.334 46H345zm-183.18 64H231v46h-53.846zm87.18 0h78v46h-78zm96 0h69.18l-15.334 46H345zm-161.846 64H231v46h-32.514zm65.846 0h78v46h-78zm96 0h47.846l-15.332 46H345zm-153 128c7.84 0 14 6.16 14 14s-6.16 14-14 14s-14-6.16-14-14s6.16-14 14-14m160 0c7.84 0 14 6.16 14 14s-6.16 14-14 14s-14-6.16-14-14s6.16-14 14-14" />
+                    </svg>
+                </a>
+                <a href="#" class="icon-header-item icon-header-noti px-2" id="favorites" 
+                     aria-label="User Favorites" data-notify="0" accesskey="F">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="#000"
+                            d="m12 19.654l-.758-.685q-2.448-2.236-4.05-3.828q-1.601-1.593-2.528-2.81t-1.296-2.2T3 8.15q0-1.908 1.296-3.204T7.5 3.65q1.32 0 2.475.675T12 6.289Q12.87 5 14.025 4.325T16.5 3.65q1.908 0 3.204 1.296T21 8.15q0 .996-.368 1.98q-.369.986-1.296 2.202t-2.519 2.809q-1.592 1.592-4.06 3.828zm0-1.354q2.4-2.17 3.95-3.716t2.45-2.685t1.25-2.015Q20 9.006 20 8.15q0-1.5-1-2.5t-2.5-1q-1.194 0-2.204.682T12.49 7.385h-.978q-.817-1.39-1.817-2.063q-1-.672-2.194-.672q-1.48 0-2.49 1T4 8.15q0 .856.35 1.734t1.25 2.015t2.45 2.675T12 18.3m0-6.825" />
+                    </svg>
+                </a>
+            </div>
+            <!-- Login & Register Action Btns -->
+            <div class="register-box-items" id="content-3" aria-label="Register and login">
+                <!-- Select Languages Dropdown Menu -->
+                <div class="dropdown" id="languages" data-bs-popper="false" aria-label="Language Selection">
+                    <button class="dropdown-toggle nav-item" id="language-code" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" aria-label="Language Selection dropdown" accesskey="L" aria-haspopup="true"
+                         tabindex="0">
+                        <span class="current-language-lg">En</span>
+                        <span class="current-language-sm">Выбрать язык</span>
+                    </button>
+                    <ul class="dropdown-menu" id="languageDropdownMenu" role="menu" tabindex="0">
+                        <li><a class="dropdown-item" href="#" role="menuitem">English</a></li>
+                        <li><a class="dropdown-item" href="#" role="menuitem">Georgian</a></li>
+                        <li><a class="dropdown-item" href="#" role="menuitem">Russian</a></li>
+                    </ul>
+                </div>
+                <div class="register-box-btns">
+                    <a href="#" class="register-btn content" id="login" aria-label="Go to Login"
+                        accesskey="7">Войти
+                        <i class="ri-arrow-right-s-fill" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <span aria-hidden="true">|</span>
+                <div class="register-box-btns">
+                    <a href="#" class="register-btn register" id="register" aria-label="Register" accesskey="8">Регистрация
+                        <i class="ri-arrow-right-s-fill" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Toggle Menu show & hide -->
+            <button class="fas fa-bars" id="menu-btn" aria-label="Toggle Main Menu" aria-expanded="false" accesskey="M"
+                aria-haspopup="true" aria-controls="mainMenu" role="button" tabindex="0">
+            </button>
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <main class="main" style="margin-top: 90px;">
+        <div class="container">
+            <h1>The Demo page</h1>
+        </div>
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="modal.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>
