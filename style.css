@@ -221,7 +221,7 @@ body {
 
 /* Global Header */
 .header {
-    position: var(--fixed);
+    position: sticky;
     top: var(--top);
     left: var(--left);
     display: var(--flex);
