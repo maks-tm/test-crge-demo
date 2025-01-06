@@ -811,10 +811,9 @@ body {
         margin-left: 0px;
     }
 
-    .wrap-icon-header svg {
-        width: 1.1em;
-         height: 1.1em;
-        
+     .wrap-icon-header svg {
+        width: 1.2em;
+        height: 1.2em;
     }
 }
 
@@ -849,11 +848,6 @@ body {
 
     .banner-navbar.active {
         padding: .5rem 5%;
-    }
-
-    .wrap-icon-header svg {
-        width: 1.3em;
-        height: 1.3em;
     }
 }
 
