@@ -850,6 +850,11 @@ body {
     .banner-navbar.active {
         padding: .5rem 5%;
     }
+
+    .wrap-icon-header svg {
+        width: 1.3em;
+        height: 1.3em;
+    }
 }
 
 @media (max-width: 420px) {
